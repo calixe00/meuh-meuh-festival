@@ -76,11 +76,11 @@ h1, h2, h3, h4, p, a
 
 #bouton
 {
-  background:rgba(0,200,220,0.1);
+  background:rgba(0,200,220,0.15);
   padding: 1px;
   text-align: center;
   margin: 0 40%;
-  box-shadow: 5px 5px 10px 0px;
+  box-shadow: black 2px 2px 4px 0px;
   border-radius: 20px;
 }
 
@@ -91,28 +91,43 @@ h1, h2, h3, h4, p, a
 
 #videoAcceuil
 {
-  height: 10px;
   position: relative;
-  background-color: yellow;
 }
 
 #videoAcceuil video
 {
   opacity: 0.6;
-  height: 100%;
-  width: 100%;
-  background-size: contain;
   position: fixed;
+  height: 115%;
+  min-width: 100%;
+  background-size: contain;
   top: 0;
   z-index: -10;
 }
 
+#localisation
+{
+  width: 100%;
+  padding-top: 4px;
+  border-top: 2px solid white;
+  background:rgb(0,0,0);
+
+}
+
+#localisation iframe
+{
+  width: 100%;
+  height: 450px;
+}
+
 #pageProgrammation
 {
-  background-color: grey;
+  background:rgb(230,190,90);
+  border: 2px solid white;
   padding:10px 30px 30px 30px;
   margin: 0 8%;
   margin-top: 130px;
+  margin-bottom: 20px;
   border-radius: 40px;
 }
 
@@ -201,12 +216,67 @@ h1, h2, h3, h4, p, a
   margin-top: 130px;
 }
 
+#affichagePass
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.pass
+{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background:rgb(230,180,40);
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+.pass h2
+{
+  margin: 10px 5%;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+.pass h4
+{
+  position: absolute;
+  top: 30px;
+  right: 10%;
+  left: 10%;
+  font-size: 4.4em;
+  margin-bottom: 200px;
+
+}
+
+#camping
+{
+  text-align: center;
+  align-content: space-around;
+  margin: 100px 12%;
+  padding: 20px 40px;
+  border: 8px solid white;
+  background:rgb(230,190,90);
+  border-radius: 20px;
+}
+
+#camping img
+{
+  width: 49%;
+  height: auto;
+  background-size: cover;
+  border: 2px solid black;
+}
 
 #pageContact
 {
-  background-color: grey;
+  background:rgb(230,190,90);
+  border: 2px solid white;
   padding:10px 30px 30px 30px;
   margin: 0 8%;
+  margin-bottom: 20px;
   border-radius: 60px;
   margin-top: 130px;
 }
@@ -232,7 +302,7 @@ h1, h2, h3, h4, p, a
 footer
 {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 0px;
   border-top: 2px solid white;
   text-align: center;
 }
