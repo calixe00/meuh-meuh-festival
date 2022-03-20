@@ -109,12 +109,39 @@ h1, h2, h3, h4, p, a
   z-index: -10;
 }
 
+section
+{
+  display: flex;
+  background-color: black;
+  border-top: 2px solid white;
+}
+
+#descriptif
+{
+  margin: 20px 40px;
+}
+
+#descriptif p
+{
+  width: 80%;
+  margin-left: 10px;
+}
+
+#information
+{
+  min-width: 20%;
+  padding: 20px;
+  margin: 10px 40px;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
 #localisation
 {
   width: 100%;
   padding-top: 4px;
-  border-top: 2px solid white;
-  background:rgb(0,0,0);
+  background-color: black;
 
 }
 
@@ -274,13 +301,46 @@ h1, h2, h3, h4, p, a
   border: 2px solid black;
 }
 
+.choixPass div
+{
+  display: flex;
+  background:rgb(230,180,40);
+  margin-bottom: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+  border: 2px solid white;
+}
+
+.choixPass h2
+{
+  padding-left: 30px;
+}
+
+.choixPass input
+{
+  margin-left: 20px;
+  font-size: 1.4em;
+  height: 40px;
+  width: 60px;
+}
+
+#valider
+{
+  position: relative;
+  font-size: 1.2em;
+  left: 70%;
+  padding: 3px 10px;
+  margin-bottom: 20px;
+}
+
 #pageContact
 {
   background:rgb(230,190,90);
   border: 2px solid white;
   padding:10px 30px 30px 30px;
   margin: 0 8%;
-  margin-bottom: 20px;
+  margin-bottom: 10%;
   border-radius: 60px;
   margin-top: 130px;
 }

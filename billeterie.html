@@ -28,33 +28,52 @@
       <div id=pageBilletterie>
         <h1>Billetterie</h1>
         <div id="affichagePass">
-          <div class="pass">
+          <a href="#pass1"><div class="pass">
             <h2>Découverte du Jazz</h2>
             <h3>pass 1 jour</h3>
             <h4>60 €</h4>
-          </div>
-          <div class="pass">
+          </div></a>
+          <a href="#pass2"><div class="pass">
             <h2>Amateur·rice de Jazz</h2>
             <h3>pass 2 jours</h3>
             <h4>80 €</h4>
-          </div>
-          <div class="pass">
+          </div></a>
+          <a href="#pass3"><div class="pass">
             <h2>Passionné·e de Jazz</h2>
             <h3>pass 3 jours</h3>
             <h4>100 €</h4>
-          </div>
-          <div class="pass">
+          </div></a>
+          <a href="#pass4"><div class="pass">
             <h2>Accro au Jazz</h2>
             <h3>pass 4 jours</h3>
             <h4>120 €</h4>
-          </div>
+          </div></a>
         </div>
         <div id="camping">
           <h2>CAMPING GRATUIT AU BORD DE L'ETANG</h2>
           <img src="Images_libres_de_droit/Camping.jpg" alt="image camping">
           <img src="Images_libres_de_droit/Etang_camping.jpg" alt="image étang">
         </div>
-      </div>
+
+        <div class="choixPass">
+          <div id="pass1">
+            <h2>Pass 1 jour (60€) :</h2>
+            <input type="number" name="pass1" value="0" />
+          </div>
+          <div id="pass2">
+            <h2>Pass 2 jours (80€) :</h2>
+            <input type="number" name="pass2" value="0">
+          </div>
+          <div id="pass3">
+            <h2>Pass 3 jours (100€) :</h2>
+            <input type="number" name="pass3" value="0">
+          </div>
+          <div id="pass4">
+            <h2>Pass 4 jours (120€) :</h2>
+            <input type="number" name="pass4" value="0">
+          </div>
+        </div>
+        <input id="valider" type="submit" value="Valider" />
 
       <footer>
         <p>©2022 meuh meuh festival</p>
